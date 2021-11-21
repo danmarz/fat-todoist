@@ -10,6 +10,11 @@
   "lib": {
     "fat-todoist": "./lib/fat-todoist.js"
   },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "scripts": {
     "start": "node ./bin/fat-todoist.js"
   },
