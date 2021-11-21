@@ -3,7 +3,7 @@
 ### About
 `fat-todoist` is a simple CLI utility which recursively adds local *Folders-As-Tasks* in **Todoist**. Can optionally also add files as tasks with the `--files` flag.
 
-![fat-todoist]('./fat-todoist-pow.png')
+![fat-todoist](fat-todoist-pow.png)
 
 
 ### Preparation
@@ -28,11 +28,6 @@ export TODOIST_API_KEY='xxxxxxxxxxxx'
 let TODOIST_API_KEY = process.env.TODOIST_API_KEY || 'xxxxxxxxxxxx'
 
 ```
-
-### Usage
-
-![fat-todoist in action]('./fat-todoist-in-action.gif')
-
 #### Good-to-know
 
 - **By design**, the current folder's name is used as the name of the project in **Todoist**. This cannot be changed.
@@ -41,7 +36,11 @@ let TODOIST_API_KEY = process.env.TODOIST_API_KEY || 'xxxxxxxxxxxx'
     - An *include files* flag  ― `--files` is available in case needed (for example when adding a folder with eBooks to read as tasks in Todoist)
     - Do note that folders with a large number of files will take quite a long time to process, AND also keep in mind that you might hit the API maximums (currently [300 tasks per project](https://todoist.com/pricing#:~:text=Active%20tasks%20per%20project)). There's not much to do about that!
 
-```bash
+### Usage
+
+![fat-todoist in action](fat-todoist-in-action.gif)
+
+```md
 $ fat-todoist --help
 Usage: fat-todoist.js --parent [Parent Project] --api [API key] --files
 
@@ -58,6 +57,6 @@ Options:
 
 ### Disclaimer: 
 
-This project is not official **Todoist**. ie: this functionality was missing, so I added it. Magic!✨
+This project is not an official **Todoist** integration. ie: this functionality was missing, so I added it. Magic!✨
 
 Made with JS, node and ❤. **Todoist** [is just awesome](https://todoist.com/).
