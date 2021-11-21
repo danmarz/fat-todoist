@@ -3,7 +3,7 @@
 ### About
 `fat-todoist` is a simple CLI utility which recursively adds local *Folders-As-Tasks* in **Todoist**. Can optionally also add files as tasks with the `--files` flag.
 
-![fat-todoist](https://raw.githubusercontent.com/dan-dm/fat-todoist/master/fat-todoist-pow.png)
+![fat-todoist](https://raw.githubusercontent.com/dan-dm/fat-todoist/master/assets/fat-todoist-pow.png)
 
 
 ### Preparation
@@ -38,7 +38,7 @@ let TODOIST_API_KEY = process.env.TODOIST_API_KEY || 'xxxxxxxxxxxx'
 
 ### Usage
 
-![fat-todoist in action](https://raw.githubusercontent.com/dan-dm/fat-todoist/master/fat-todoist-in-action.gif)
+![fat-todoist in action](https://raw.githubusercontent.com/dan-dm/fat-todoist/master/assets/fat-todoist-in-action.gif)
 
 ```md
 $ fat-todoist --help
