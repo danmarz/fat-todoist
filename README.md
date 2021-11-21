@@ -1,4 +1,4 @@
-# `fat-todoist` ![npm version](https://badge.fury.io/js/fat-todoist.svg) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/dan-dm/fat-todoist) ![npm license](https://img.shields.io/npm/l/fat-todoist) ![npm bundle size](https://img.shields.io/bundlephobia/min/fat-todoist) ![Integrates with Todoist](https://img.shields.io/badge/Integrates%20with-Todoist-red?style=flat&logo=todoist&logoColor=white)
+# `fat-todoist` ![npm version](https://badge.fury.io/js/fat-todoist.svg) ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/dan-dm/fat-todoist) ![npm license](https://img.shields.io/npm/l/fat-todoist) ![Integrates with Todoist](https://img.shields.io/badge/Integrates%20with-Todoist-red?style=flat&logo=todoist&logoColor=white)
 
 ### About
 `fat-todoist` is a simple CLI utility which recursively adds local *Folders-As-Tasks* in **Todoist**. Can optionally also add files as tasks with the `--files` flag.
