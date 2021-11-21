@@ -46,6 +46,5 @@
   "homepage": "https://github.com/dan-dm/fat-todoist#readme",
   "directories": {
     "lib": "lib"
-  },
-  "devDependencies": {}
+  }
 }
