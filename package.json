@@ -1,6 +1,6 @@
 {
   "name": "fat-todoist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI utility which recursively adds local Folders-As-Tasks in Todoist. Can optionally also add files as tasks with the `--files` flag.",
   "main": "./lib/fat-todoist.js",
   "type": "module",
